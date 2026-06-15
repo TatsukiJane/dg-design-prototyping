@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(dir /a \"C:\\\\ai projects\\\\DG Design Prototyping\")",
+      "PowerShell($env:CI = \"true\"; npm create vite@latest . -- --template react-ts --overwrite 2>&1 | Out-String)",
+      "Bash(npm install *)",
+      "Bash(npx shadcn@latest add button card input label dialog dropdown-menu select textarea badge avatar separator tabs sheet table --yes --overwrite)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(mkdir \"C:/ai projects/DG Design Prototyping/src/prototypes/2026-05-dg-business-inbox\")",
+      "Bash(mkdir \"C:/ai projects/DG Design Prototyping/src/prototypes/2026-05-dg-business-inbox/screens\")",
+      "Bash(npx shadcn@latest add checkbox --yes)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(mkdir \"C:/ai projects/DG Design Prototyping/.claude/commands\" 2>&1; echo \"done\")"
+    ]
+  }
+}
