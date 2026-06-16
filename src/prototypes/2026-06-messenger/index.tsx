@@ -68,7 +68,7 @@ function formatText(text: string) {
     // Detect numbered
     const numMatch = trimmed.match(/^(\d+)\.\s(.*)/)
     if (numMatch) {
-      return <li key={i} className="ml-4 list-decimal">{formatted.map((p, j) => typeof p === 'string' ? p.replace(/^\d+\.\s/, '') : p)}</li>
+      return <li key={i} className="ml-4 list-decimal">{formatted.map((p) => typeof p === 'string' ? p.replace(/^\d+\.\s/, '') : p)}</li>
     }
     if (line === '') return <br key={i} />
     return <p key={i}>{formatted}</p>
