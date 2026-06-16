@@ -14,7 +14,9 @@
       "Bash(npx shadcn@latest add checkbox --yes)",
       "Skill(update-config)",
       "Skill(update-config:*)",
-      "Bash(mkdir \"C:/ai projects/DG Design Prototyping/.claude/commands\" 2>&1; echo \"done\")"
+      "Bash(mkdir \"C:/ai projects/DG Design Prototyping/.claude/commands\" 2>&1; echo \"done\")",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }
